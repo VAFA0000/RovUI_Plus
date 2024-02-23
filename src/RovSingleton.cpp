@@ -71,7 +71,7 @@ void RovSingleton::createConnections()
             m_controlData.axisW *= m_scaleFactor;
             m_controlData.axisX *= m_scaleFactor;
             m_controlData.axisZ *= m_scaleFactor;
-            m_controlData.axisY *= m_scaleFactor;
+            m_controlData.axisY *= 1;
 
             if (m_telimetry.version == 2) {
                 auto data = m_controlData.toRangerControlMsgV2();
