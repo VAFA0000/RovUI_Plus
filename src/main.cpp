@@ -78,14 +78,14 @@ void setMessageOutput(QtMsgType type, const QMessageLogContext& context, const Q
 void makeDark(QApplication& a)
 {
     QPalette palette;
-    palette.setColor(QPalette::Window, QColor(53, 53, 53));
+    palette.setColor(QPalette::Window, QColor(0, 0, 74));
     palette.setColor(QPalette::WindowText, Qt::white);
     palette.setColor(QPalette::Base, QColor(15, 15, 15));
-    palette.setColor(QPalette::AlternateBase, QColor(53, 53, 53));
+    palette.setColor(QPalette::AlternateBase, QColor(53, 0, 0));
     palette.setColor(QPalette::ToolTipBase, Qt::white);
     palette.setColor(QPalette::ToolTipText, Qt::white);
     palette.setColor(QPalette::Text, Qt::white);
-    palette.setColor(QPalette::Button, QColor(53, 53, 53));
+    palette.setColor(QPalette::Button, QColor(0, 0, 123));
     palette.setColor(QPalette::ButtonText, Qt::white);
     palette.setColor(QPalette::BrightText, Qt::red);
 
